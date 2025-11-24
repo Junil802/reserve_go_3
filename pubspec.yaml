@@ -1,0 +1,38 @@
+name: reserve_go_1
+description: A new Flutter project for Reserve & Go
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.2
+
+  # Utils
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+  get_it: ^7.6.4
+
+  # Code generation (runtime part)
+  freezed_annotation: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # Code generation tools
+  freezed: ^2.0.0
+  build_runner: ^2.0.0
+
+flutter:
+  uses-material-design: true
